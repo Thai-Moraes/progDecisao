@@ -8,4 +8,4 @@ num = int(input("Informe um número de 3 algarismos: "))
 if num < 100 or num > 999:
     print("Número inválido! Tente novamente!")
 else:
-    print(f"O algarismo das centenas de {num} é: {int(num / 100)}")
+    print(f"O algarismo das centenas de {num} é: {int(num // 100)}")
