@@ -10,3 +10,10 @@ if num1 % num2 == 0:
     print(f"O número {num2} é divisor de {num1}")
 else:
     print(f"O número {num2} NÃO é divisor de {num1}")
+
+# Operador ternário
+
+print("Operador ternário: ", end="")
+resposta = f"O número {num2} é divisor de {num1}" if num1 % num2 == 0 else f"O número {num2} NÃO é divisor de {num1}"
+
+print(resposta)
