@@ -3,7 +3,7 @@
 crescente.
 '''
 
-# Jeito demoradinho e nada otimizado, mas funcioma
+# Jeito mais bonitinho e organizado
 
 num1 = int(input("Informe o valor 1: "))
 num2 = int(input("Informe o valor 2: "))
@@ -41,3 +41,21 @@ if (num3 < num2 < num1):
     print(num3, num2, num1)
 if (num3 < num1 < num2):
     print(num3, num1, num2)
+
+# Outro jeitinho
+
+menor = min(num1, num2, num3)
+maior = max(num1, num2, num3)
+
+print(f"{menor}, ", end="")
+
+if (maior + menor) - num2 == num2:
+    print(f"{num2}, ", end="")
+if (maior + menor) - num1 == num1:
+    print(f"{num1}, ", end="")
+else:
+    print(f"{num3}, ", end="")
+
+print(f"{maior} \n", end="")
+
+
