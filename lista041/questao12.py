@@ -12,7 +12,7 @@ num5 = int(input("Informe valor 5: "))
 
 print(f"\nO maior valor é: {max(num1, num2, num3, num4, num5)}\nO menor valor é: {min(num1, num2, num3, num4, num5)}")
 
-# Jeito demorado
+# Jeito demorado (e que não tenho 100% de certeza que tá funcionando)
 
 menor = num1
 maior = num1
